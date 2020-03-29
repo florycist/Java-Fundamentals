@@ -24,6 +24,14 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        int a = 10;
+        double b = a;
+        System.out.println("The double is " + a);
+        double d = 10.5;
+        int i = (int) d;
+        System.out.println("The int is " + i);
+
+        //Information is lost in the narrowing (left) direction from a higher bit double to a lower bit int.
 
     }
 }

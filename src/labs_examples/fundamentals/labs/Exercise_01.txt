@@ -22,3 +22,42 @@ Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
        /Users/cadenmackenzie/Documents/CodingNomads
 
+1. yomi@Yomi:~$ cd Documents/
+yomi@Yomi:~/Documents$ ls
+CodingNomads  HelloVim.txt  HelloWorld.class
+yomi@Yomi:~/Documents$ cd CodingNomads/
+yomi@Yomi:~/Documents/CodingNomads$
+
+2. yomi@Yomi:~/Documents/CodingNomads$ mkdir Terminal_testing
+
+3. a) yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ touch file1.txt file2.txt file3.txt
+ b) yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ pwd
+/home/yomi/Documents/CodingNomads/Terminal_testing
+c) yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ ls
+file1.txt  file2.txt  file3.txt
+
+5. yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ mkdir newFolder
+
+6. yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ cp file1.txt newFolder
+
+7. yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ mv file2.txt newFolder/
+
+8. a.) yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ rm file1.txt
+yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ ls
+file3.txt  newFolder
+yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$
+b) yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ rm -r newFolder
+yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$
+yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ ls
+file3.txt
+
+9. yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ vim file1.txt
+yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ cat file1.txt
+Hello world!
+How are we all doing today.
+I hope everyone is safe and healthy.
+Keep the faith and keep coding.
+yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$ grep faith file1.txt
+Keep the faith and keep coding.
+yomi@Yomi:~/Documents/CodingNomads/Terminal_testing$
+
