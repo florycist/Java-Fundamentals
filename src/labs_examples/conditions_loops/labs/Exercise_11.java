@@ -23,4 +23,28 @@ package labs_examples.conditions_loops.labs;
 
 public class Exercise_11 {
 
+    public static void main(String[] args) {
+
+        int result;
+
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(i);
+            for (int j = 1; j <= 10; j++) {
+
+                result = i * j;
+
+                if (result <= 10) {
+
+                    System.out.print(" |" + result);
+                }
+                else {
+                    System.out.print(" |" + result);
+                }
+
+            }
+
+        }
+    }
+
 }
