@@ -10,4 +10,22 @@ package labs_examples.arrays.labs;
 
 public class Exercise_04 {
 
+    public static void main(String[] args) {
+
+        int[][] irregularArray = new int[][]{
+                {2, 4},
+                {6, 8, 10},
+                {12, 14, 16, 18}
+        };
+
+        for (int[] a : irregularArray) {
+            for (int e : a) {
+                System.out.print(e + " ");
+            }
+        }
+
+        System.out.print('\n');
+
+    }
+
 }

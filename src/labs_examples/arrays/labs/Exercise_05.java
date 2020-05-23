@@ -10,4 +10,15 @@ package labs_examples.arrays.labs;
 
 public class Exercise_05 {
 
+    public static void main(String[] args) {
+
+        String [] names = new String[]{"John", "James", "Jude"};
+
+        for (int i = names.length-1; i >= 0; i--) {
+            System.out.print(names[i]);
+            System.out.print('\n');
+        }
+
+    }
+
 }

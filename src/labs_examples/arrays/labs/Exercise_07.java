@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.ArrayList;
+
 /**
  *  ArrayLists
  *
@@ -10,4 +12,17 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> names = new ArrayList<>();
+        names.add("John");
+        names.add("Paul");
+        names.add("Tim");
+        names.add("Yomi");
+
+        System.out.println(names);
+        System.out.println(names.toString());
+
+    }
 }
